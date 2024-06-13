@@ -1,0 +1,13 @@
+.employee-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(210px,1fr));
+    gap:7px;
+    margin: 3% 3% 0% 2%;
+}
+.employee{
+    background-color: rgb(5, 160, 183);
+    box-shadow: 0px 2px 5px black;
+    padding: 3px;
+    color: white;
+    padding: 10px;
+}
